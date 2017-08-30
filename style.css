@@ -1,0 +1,56 @@
+body{
+    background: url("http://i0.wp.com/ohiocryo.com/wp-content/uploads/2015/09/tabletop-background.png") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+}
+
+#calculator {
+    background-color: gray;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 1.5em;
+    box-shadow: 1px 1px 3px 3px;
+}
+
+#display {
+    margin-bottom: 20px;
+    height: 35px;
+    width: 10em;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 3px;
+    text-align:right;
+    font: 20px bold;
+}
+
+#keys {
+    margin: 3px;
+    width: 40px;
+    height: 35px;
+    box-shadow: 0px 0px 1px 1px;
+    border-radius: 2px;
+    outline-style: none;
+}
+
+#equal{
+    margin: 3px;
+    width: 90px;
+    height: 35px;
+    margin-left:5px;
+    box-shadow: 0px 0px 1px 1px;
+    border-radius: 2px;
+    outline-style: none;
+}
+
+#brand{
+    margin-top: 20px;
+}

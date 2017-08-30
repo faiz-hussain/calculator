@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zayd's Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 .col-sm-12, col-md-12">
+    <div class="text-center">
+        <h1>JavaScript Calculator</h1>
+        <h2>By: Faizal (Zayd) Hussain</h2>
+    </div>
+    <div id="calculator">
+        <form>
+            <input type="text" id="display" disabled>
+            <br>
+            <input type="button" value="C" id="keys" onclick='toScreen("c")'>
+            <input type="button" value="CE" id="keys" onclick='backspace()'>
+            <input type="button" value="x^2" id="keys" onclick='power()'>
+            <input type="button" value="+" id="keys" onclick='toScreen("+")'>
+            <br>
+            <input type="button" value="7" id="keys" onclick='toScreen("7")'>
+            <input type="button" value="8" id="keys" onclick='toScreen("8")'>
+            <input type="button" value="9" id="keys" onclick='toScreen("9")'>
+            <input type="button" value="-" id="keys" onclick='toScreen("-")'>
+            <br>
+            <input type="button" value="4" id="keys" onclick='toScreen("4")'>
+            <input type="button" value="5" id="keys" onclick='toScreen("5")'>
+            <input type="button" value="6" id="keys" onclick='toScreen("6")'>
+            <input type="button" value="*" id="keys" onclick='toScreen("*")'>
+            <br>
+            <input type="button" value="1" id="keys" onclick='toScreen("1")'>
+            <input type="button" value="2" id="keys" onclick='toScreen("2")'>
+            <input type="button" value="3" id="keys" onclick='toScreen("3")'>
+            <input type="button" value="/" id="keys" onclick='toScreen("/")'>
+            <br>
+            <input type="button" value="0" id="keys" onclick='toScreen("0")'>
+            <input type="button" value="." id="keys" onclick='toScreen(".")'>
+            <input type="button" value="=" id="equal" onclick='calculate()'>
+        </form>
+        <h4 id="brand">Zayd's Calculator</h4>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
